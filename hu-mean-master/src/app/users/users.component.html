@@ -1,0 +1,18 @@
+<div class="users">
+    <div class="list">
+        <table>
+            <tr>
+              <td>First Name</td> 
+              <td>Last Name</td>
+            </tr>
+      
+     
+            <tr class="list-item" *ngFor="let user of users" (click)="showUser(user)">
+              <td>{{user.name.first}}</td>
+              <td>{{user.name.last}}</td>
+            </tr>
+        
+      
+        </table> 
+    </div>
+  </div>

@@ -1,0 +1,12 @@
+.todo-input {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  align-items: center;
+  background: #136fe7;
+  font-size: 18px;
+  
+  input {
+    flex: 1;
+  }
+}
